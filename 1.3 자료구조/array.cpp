@@ -3,7 +3,8 @@
 //c스타일은 int a[10] 이렇게 선언하는 것이며 std스타일은 array<int, 10> a; 이렇게 선언하는 것을 말합니다.
 
 #include <bits/stdc++.h>
-using namespace std; int v[10];
+using namespace std; 
+int v[10];
 int main(){
     for(int i=1;i<=10;i++)v[i-1]=i; 
     for(int a:v)cout<<a<<" ";
