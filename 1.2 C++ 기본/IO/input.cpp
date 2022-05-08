@@ -96,3 +96,12 @@ int main() {
 
 // while (scanf("%d", &n) != EOF)
 // while (cin >> n) // cin으로는 이렇게 하면 됩니다
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int a;
+// int main(){
+//     cin >> a;
+//     cout << a << "\n";
+//     return 0;
+// }

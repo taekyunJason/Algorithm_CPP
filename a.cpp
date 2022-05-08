@@ -34,7 +34,7 @@ int main(){
 
 
 
-
+//파일명에는 띄어쓰기 적용되지 X
 //g++ -std=c++14 -Wall a.cpp -o test.out
 //a.cpp파일을 엄격하게(-wall) C++ 14버전으로 컴파일해서 test.out이라는 파일을 
 //만든다(-o test.out)는 의미

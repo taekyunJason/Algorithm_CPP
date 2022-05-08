@@ -32,17 +32,17 @@
 //만약 숫자로 된 문자에서 1을 더해준다면 어떻게 될까요? 
 //바로 아스키코드에서 + 1한 값이 됩니다.
 
-#include <bits/stdc++.h>
-using namespace std;
-typedef long long ll;
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    string s = "123";
-    s[0]++;
-    cout << s << "\n";
-    return 0;              //223
-}
+// #include <bits/stdc++.h>
+// using namespace std;
+// typedef long long ll;
+// int main(){
+//     ios::sync_with_stdio(false);
+//     cin.tie(NULL);
+//     string s = "123";
+//     s[0]++;
+//     cout << s << "\n";
+//     return 0;              //223
+//}
 
 
 //아스키코드는 1963년 미국 ANSI에서 표준화한 정보교환용 7비트 부호체계이며 
@@ -56,3 +56,16 @@ int main(){
 //위의 코드를 보면 123에서 s[0]에 1을 더해 223이 되었는데 
 //이는 아스키코드 49에서 1을 더한 값인 50이 가리키는 값이 2이기 때문에 123 에서 223이 되는 것입니다. 
 //즉, 문자열에서 + 하는 연산은 “아스키코드”를 기반으로 수행됩니다.
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    string a = "wow";
+    a += " ";
+    a += "fantastic";
+    cout << a.size() << "\n";
+    cout << a << "\n";
+    return 0;
+}
